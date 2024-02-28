@@ -1,0 +1,73 @@
+<template>
+<div>
+    <div style="padding: 30px; max-width: calc(100vw - 150px)">
+    <h1>Download</h1>
+
+    <table border="1px">
+        <tr>
+            <th>Data type</th>
+            <th>Details</th>
+            <th>Numble</th>
+        </tr>
+        <tr>
+            <td><a href="./mysql_table/gwas.csv" download>Gwas</a></td>
+            <td>GWAS：全基因组关联分析(GWAS)是利用群体内部的连锁不平衡状态来评估基因组变异与个体性状或疾病之间的关联程度。
+                GWAS 有高通量、低成本的特点，可以在全基因组范围内检测亿万个基因变异与性状或疾病之间的关联性，
+                已成为发现复杂性状关联基因或位点的最重要工具之一，常用的软件包括 PLINK，GEMMA等。</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td><a href="./mysql_table/eqtl.csv" download>eQTL</a></td>
+            <td>e QTL：表达数量性状基因座(e QTL)是基因组内一些参与调控 mRNA 和蛋白质表达水平的区域，
+                其mRNA 和蛋白质的表达水平与数量性状成比例关系。本质上，e QTL 就是 QTL
+                的延伸，其将基因表达水平当做一种分子表型，然后计算基因组变异和基因表达量的关联性，常用的软件为 Matrix e QTL。</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td><a href="./mysql_table/meqtl.csv" download>meQTL</a></td>
+            <td>...</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td><a href="./mysql_table/emqtlcotton.csv" download>emQTL-Cotton</a></td>
+            <td>表达甲基化数量性状位点本质上是将甲基化水平与基因表达水平关联起来，它首次被应用于发现人类乳腺癌的致因性甲基化位点。</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td><a href="./mysql_table/emqtlat.csv" download>emQTL-AT</a></td>
+            <td>表达甲基化数量性状位点本质上是将甲基化水平与基因表达水平关联起来，它首次被应用于发现人类乳腺癌的致因性甲基化位点。</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td><a href="./mysql_table/ewas.csv" download>Ewas</a></td>
+            <td>EWAS：表观基因组关联分析(EWAS)是 GWAS 的延伸，其本质为将复杂性状与表观遗传变异进行关联分析，
+                在表观遗传层面对复杂性状的形成机理进行探索，找到与性状相关的表观遗传变异位点。</td>
+            <td>n</td>
+        </tr>
+
+    </table>
+</div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: "Test1",
+        components:{
+
+        },
+        data(){
+            return{
+                tableData : [
+
+                ],
+            }
+        },
+    }
+
+
+</script>
+
+<style scoped>
+
+</style>
