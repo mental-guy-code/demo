@@ -1,0 +1,8 @@
+com\example\demo\DemoApplication.class
+com\example\demo\mapper\GwasMapper.class
+com\example\demo\entity\Gwas.class
+com\example\demo\common\MybatisPlusConfig.class
+com\example\demo\common\ResultCode.class
+com\example\demo\controller\GwasController.class
+com\example\demo\common\IErrorCode.class
+com\example\demo\common\Result.class
